@@ -17,6 +17,9 @@ services.AddSingleton<Microsoft.AspNetCore.Mvc.Razor.IMvcRazorHost, GuardRex.Min
 ### Experimental!
 This is not a "perfect" minifier. You may find in a few spots that a non-breaking space (`&nbsp`) is required in markup to preserve a space taken out by the library. This is a temporary library to tide one over until minification becomes first-class in MVC Razor. See: https://github.com/aspnet/Razor/issues/444
 
+### Acknowledgement
+Thanks to Thom Kiesewetter @Anderman https://github.com/Anderman for the initial host replacement code.
+
 ### Version History
 Version | Changes Made
 ------- | ------------
