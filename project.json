@@ -1,0 +1,27 @@
+{
+    "authors": [ "GuardRex Corporation" ],
+    "buildOptions": {
+        "warningsAsErrors": true
+    },
+    "copyright": "Copyright 2016 GuardRex Corporation",
+    "dependencies": {
+        "Microsoft.AspNetCore.Mvc.Razor": "1.0.0"
+    },
+    "description": "Minifying MvcRazorHost for minification of Razor views at compile time.\r\nCommonly used types:\r\nGuardRex.MinifyingMvcRazorHost.ChunkVisitorMinifyingMvcRazorHost\r\nGuardRex.MinifyingMvcRazorHost.PreMinifyingMvcRazorHost",
+    "frameworks": {
+        "netstandard1.6": {}
+    },
+    "packOptions": {
+        "tags": [
+            "minification"
+        ],
+        "iconUrl": "https://rexsite.azureedge.net/www-guardrex-com/nugetlogo.png",
+        "licenseUrl": "https://github.com/GuardRex/GuardRex.MinifyingMvcRazorHost/blob/master/LICENSE.md",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/GuardRex/GuardRex.MinifyingMvcRazorHost"
+        }
+    },
+    "title": "Minifying MvcRazorHost",
+    "version": "1.0.0"
+}
